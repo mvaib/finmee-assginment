@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+        <nav>
+            <div class="logo">NTWIST</div>
+            <div>
+                <ul>
+                    <li><a href="./index.html">Form</a></li>
+                    <li><a href="./sort.html">Name List</a></li>
+                    <li><a href="./faq.html">FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main-content">
+      <h1>Contact Us</h1>
+      <form id="contactForm">
+        <label>Name: <input type="text" name="name" required></label>
+        <label>Email: <input type="email" name="email" required></label>
+        <label>Message: <textarea name="message" required></textarea></label>
+        <button type="submit">Submit</button>
+        <p id="timeSpent"></p>
+        <p id="confirmation" class="hidden">Thank you for your message!</p>
+      </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 NExT. All rights reserved.</p>
+    </footer>
+  </div>
+  <script src="assets/js/form.js"></script>
+</body>
+</html>

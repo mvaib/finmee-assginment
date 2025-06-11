@@ -6,10 +6,8 @@
 - `faq.html`: FAQ section using HTML/CSS only (accordion)
 
 ## Features
-- Vanilla HTML, CSS, JS only
-- Responsive layout using Flexbox
-- Fixed-width sidebar
-- No layout shift on hover/focus
+- Vanilla JS, HTML5, CSS only
+- Fixed-width Nav Bar
 - Clean folder structure
 
 ## Run Locally
